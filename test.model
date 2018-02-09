@@ -38,6 +38,8 @@ rule step for state in roommates {
         bananas -= 1;
         state = Happy;
       }
+      if (roommets[1]=Hungry && roommets[2]=Hungry && roommets[3]=Hungry && roommets[4]=Hungry && roommets[5]=Hungry )
+      notepresent = false;
     }
 
     GoingToStore {
